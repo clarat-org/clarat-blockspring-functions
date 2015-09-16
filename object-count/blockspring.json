@@ -1,0 +1,27 @@
+{
+  "id": "f5a671e0b3888b12a06e5156128e0777",
+  "user": "KonstantinKo",
+  "title": "Objekt-Anzahl",
+  "description": "Die Anzahl vorhandener Objekte. Optional pro Zustand. Z.B. Gesamtanzahl aller Angebote, oder Anzahl aller Organisationen mit Zustand 'approved'.",
+  "parameters": [
+    {
+      "type": "text",
+      "label": "Objekt",
+      "name": "object",
+      "help_text": "Zielobjekt (z.B. Offer oder Organization)",
+      "default": "Offer"
+    },
+    {
+      "type": "text",
+      "label": "State",
+      "name": "state",
+      "help_text": "Optional. Benötigter Zustand (state), damit das Objekt zählt.",
+      "default": ""
+    }
+  ],
+  "is_public": false,
+  "is_open_source": false,
+  "language": "rb",
+  "updated_at": 1442400138,
+  "created_at": 1441629387
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2c5ba23b985a5a3c7fe4ff3374897ca6",
+  "user": "KonstantinKo",
+  "title": "Aktionen pro Tag",
+  "description": "Die Gesamt-Anzahl der geschehenen Aktionen (created / approved) pro Tag seit der ersten Aktion.",
+  "parameters": [
+    {
+      "type": "text",
+      "label": "Objekt",
+      "name": "object",
+      "help_text": "Zielobjekt (offer oder organization)",
+      "default": "offer"
+    },
+    {
+      "type": "text",
+      "label": "Aktion",
+      "name": "action",
+      "help_text": "Zu zählende Aktion (created oder approved)",
+      "default": "created"
+    }
+  ],
+  "is_public": false,
+  "is_open_source": false,
+  "language": "rb",
+  "updated_at": 1442400272,
+  "created_at": 1442240615
+}
